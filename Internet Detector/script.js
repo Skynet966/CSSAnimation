@@ -11,7 +11,6 @@ function autoHideAlert() {
 
 window.addEventListener('load', () => {
 	const internetStatus = navigator.onLine;
-	console.log(internetStatus);
 	internetStatus ? onlineAlert() : offlineAlert;
 });
 
